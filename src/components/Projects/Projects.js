@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import calculator from "../../Assets/Projects/calculator.png";
+import java from "../../Assets/Projects/java-spring.png";
 import netflixgpt from "../../Assets/Projects/netflixgpt.png";
 import imagesearch from "../../Assets/Projects/imagesearch.png";
 
@@ -18,6 +18,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={java}
+              isBlog={false}
+              title="Blog App Apis"
+              description="This is the backend project for a blog application. In this project, I have created secure endpoints using Java Spring Boot."
+              ghLink="https://github.com/raushanstar/blog-app-apis"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={netflixgpt}
@@ -40,16 +49,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={calculator}
-              isBlog={false}
-              title="Calculator"
-              description="This is calculator application which provide all the feature of calulator."
-              ghLink="https://github.com/raushanstar/Calculator"
-              demoLink="https://raushanstar.github.io/Calculator/"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
