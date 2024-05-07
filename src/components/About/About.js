@@ -58,7 +58,7 @@ function About() {
                   <span className="purple">Leetcode</span>
                   <br />
                   <a
-                    href="https://github.com/raushan_k30"
+                    href="https://leetcode.com/raushan_k30"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
