@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatarnew.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -89,7 +90,6 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
-              
             </ul>
           </Col>
         </Row>
